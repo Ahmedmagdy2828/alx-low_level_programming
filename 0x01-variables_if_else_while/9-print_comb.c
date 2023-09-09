@@ -10,15 +10,20 @@
 * Return: 0
 */
 
-int main(void)
+	int main(void)
 {
-	char low;
+	int n;
 
-	for (low = 'a' ; low <= 'z' ; low++)
-	putchar(low);
-
-	for (low = 'A' ; low <= 'z' ; low++)
-	putchar(low);
+	for (n = 48; n < 58; n++)
+	{
+	putchar(n);
+	if (n != 57)
+	{
+	putchar(',');
+	putchar(' ');
+	}
+	}
 	putchar('\n');
 	return (0);
 }
+
