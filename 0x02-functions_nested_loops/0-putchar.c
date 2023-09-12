@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
-*main - function
-*
-*description: putchar.c
-*
-* Return: 0
-*/
+ * main - function
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -22,5 +19,4 @@ int main(void)
 	return (0);
 
 }
-
 
